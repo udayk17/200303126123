@@ -1,0 +1,83 @@
+<div id="entire">
+   
+  <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" routerLink="/home" routerLinkActive="active">Upcoming Trains</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Schedule</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Report</a>
+                    </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Source" aria-label="Search">
+                <h2>To</h2>
+                <input class="form-control me-2" type="search" placeholder="Destination" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><a routerLink="/home" routerLinkActive="active" id="search">Search</a></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </div>
+  <br>
+  <br>
+<div class="card" style="width: 18rem;" id="t1">
+  <img src="../assets/pexels-luis-leon-2569249.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Kovai Express</h5>
+    <p class="card-text">Chennai To Madurai<br>Departure Time : 20:00<br>50 Seats Available<br></p>
+    <a routerLink="/login" routerLinkActive="active" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;" id="t2">
+  <img src="../assets/pexels-nick-wehrli-3375874.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mumbai Express</h5>
+    <p class="card-text">Bihar To Bengal<br>Departure Time : 22:00<br>200 Seats Available<br></p>
+    <a routerLink="/login" routerLinkActive="active" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;" id="t3">
+  <img src="../assets/pexels-alex-qian-2474835.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Chennai Express</h5>
+    <p class="card-text">Madras To Madurai<br>Departure Time : 18:00<br>10 Seats Available<br></p>
+    <a class="btn btn-primary" routerLink="/login" routerLinkActive="active">Book Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;" id="t4">
+  <img src="../assets/pexels-luis-leon-2569246.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Chengalpattu Express</h5>
+    <p class="card-text">Chennai To Kashmir<br>Departure Time : 01:00<br>500 Seats Available<br></p>
+    <a class="btn btn-primary" routerLink="/login" routerLinkActive="active">Book Now</a>
+  </div>
+</div>
+  
+</div>

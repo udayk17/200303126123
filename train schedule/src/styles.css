@@ -1,0 +1,27 @@
+#tit{
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+}
+
+#ulr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  #lir {
+    float: left;
+  }
+  
+  #lir a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+  }

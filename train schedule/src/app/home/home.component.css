@@ -1,0 +1,12 @@
+#entire{
+    margin: 20px;
+}
+#t1,#t2,#t3,#t4{
+    float: left;
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+#search{
+    text-decoration: none;
+}
